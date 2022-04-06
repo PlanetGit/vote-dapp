@@ -4,10 +4,10 @@
 
 @layer components {
   .enter-container {
-    @apply w-full max-w-3xl sm:mt-48 mx-auto overflow-hidden sm:rounded-xl shadow-lg bg-yellow-300 border-2 border-amber-500  text-amber-300 text-lg
+    @apply w-full max-w-3xl relative top-48 mx-auto overflow-hidden sm:rounded-xl shadow-lg bg-yellow-300 border-2 border-amber-500  text-amber-300 text-lg
   }  
   .vote-container {
-    @apply w-full max-w-3xl sm:mt-32 sm:mb-32 mx-auto overflow-hidden sm:rounded-xl shadow-lg bg-yellow-300 border-2 border-amber-500  text-amber-300 text-lg
+    @apply w-full max-w-3xl relative top-12 mx-auto overflow-hidden sm:rounded-xl shadow-lg bg-yellow-300 border-2 border-amber-500  text-amber-300 text-lg
   }
 
   .header-welcome {
